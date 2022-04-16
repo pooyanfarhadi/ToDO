@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="255dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundededittext">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="255dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/roundededittext"
+        android:visibility="invisible">
+
+
+    </EditText>
+
+    <Button
+        android:id="@+id/addclumebtn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="20dp"
+        android:text="+"
+        android:textSize="20sp">
+
+    </Button>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/tik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_done"
+        android:backgroundTint="@color/white"
+
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="335dp">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+</RelativeLayout>
